@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Human Resource Capital Management - Your Business Partner</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="operations.css">
+</head>
+<body>
+
+    <header class="bg-light">
+        <div class="container text-center">
+            <a href="index.html" class="logo"><img src="./images/logo.png" alt="Logo" style="width: 45px; margin-bottom: 60px;"></a>
+            <a class="navbar-brand" href="index.html">Bank Trust</a>
+            <h1>Human Resource Capital Management</h1>
+            <p>Unlocking Human Capital Potential for Business Success</p>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand-title" href="operations.html">Human Resource</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <button class="dropbtn">Services
+                            <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="business.html">Business Growth & Transformation</a>
+                                <a href="operations.html">Operations Consulting</a>
+                                <a href="resource.html">Human Resource Capital Management</a>
+                                <a href="financial.html">Financial Literacy In Education</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="clients.html">Clients</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="services" class="bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Our HRCM Services</h2>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./images/Operations/img2.jpg" class="card-img-top" alt="HRCM Service 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Talent Acquisition</h5>
+                            <p class="card-text">Recruitment and onboarding strategies to attract and retain top talent.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./images/Operations/img3.jpg" class="card-img-top" alt="HRCM Service 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Employee Development</h5>
+                            <p class="card-text">Training and skill development programs for employee growth and performance improvement.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./images/Operations/img4.jpg" class="card-img-top" alt="HRCM Service 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Workforce Analytics</h5>
+                            <p class="card-text">Data-driven insights to optimize workforce planning and decision-making.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team">
+        <div class="container">
+            <h2 class="text-center mb-4">Meet Our HRCM Team</h2>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./images/Operations/img6.jpg" class="card-img-top" alt="Team Member 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Greg Anderson</h5>
+                            <p class="card-text">HRCM Specialist</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./images/Operations/img7.jpg" class="card-img-top" alt="Team Member 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Elaine Smith</h5>
+                            <p class="card-text">Employee Development Consultant</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./images/Operations/img5.jpg" class="card-img-top" alt="Team Member 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Darrell Johnson</h5>
+                            <p class="card-text">Workforce Analyst</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2 class="text-center mb-4">Contact Us for HRCM</h2>
+        <p class="text-center">Ready to optimize your human capital management? Reach out to us using the form below:</p>
+
+        <form action="submit_form.php" method="post">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="name">Your Name:</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="email">Your Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message">Your Message:</label>
+                <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="bg-dark text-light text-center py-3">
+        <div class="container">
+            <p>&copy; 2023 Bank Trust. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
